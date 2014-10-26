@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Alumno implements Serializable{
     //prueba
+    //lalala
     private int codigo;
     private String nombre;
     private String apellido;
