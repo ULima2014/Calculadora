@@ -7,7 +7,7 @@ public class Alumno implements Serializable{
     private int codigo;
     private String nombre;
     private String apellido;
-
+    private int nivel;
     public Alumno() {
     }
 
@@ -16,6 +16,14 @@ public class Alumno implements Serializable{
         this.nombre = nombre;
         this.apellido = apellido;
     }
+
+    public Alumno(int codigo, String nombre, String apellido, int nivel) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.nivel = nivel;
+    }
+    
 
     public int getCodigo() {
         return codigo;
@@ -39,6 +47,14 @@ public class Alumno implements Serializable{
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
     }
     
     
