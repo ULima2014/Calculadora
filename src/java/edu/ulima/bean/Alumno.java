@@ -3,7 +3,7 @@ package edu.ulima.bean;
 import java.io.Serializable;
 
 public class Alumno implements Serializable{
-    
+    //prueba
     private int codigo;
     private String nombre;
     private String apellido;
