@@ -10,5 +10,6 @@ package edu.ulima.bean;
  * @author B
  */
 public class AlumnoDAO {
-    
+    private String nombre;
+    private int cod;
 }
